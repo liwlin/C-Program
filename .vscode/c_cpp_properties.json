@@ -1,0 +1,67 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceRoot}",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "D:/App/MinGW/include/*",
+                "D:/App/MinGW/lib/gcc/mingw32/5.3.0/include/*",
+                "D:/App/MinGW/lib/gcc/mingw32/5.3.0/include/c++/*",
+                "D:/App/MinGW/lib/gcc/mingw32/5.3.0/include/c++/mingw32/*",
+                "D:/App/MinGW/lib/gcc/mingw32/5.3.0/include/c++/backward/*"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": ["D:/App/MinGW/include/*",
+                    "D:/App/MinGW/lib/gcc/mingw32/5.3.0/include/c++/*",
+                    "D:/App/MinGW/lib/gcc/mingw32/5.3.0/include/c++/mingw32/*",
+                    "D:/App/MinGW/lib/gcc/mingw32/5.3.0/include/c++/backward/*",
+                    "${workspaceRoot}"],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 2
+}
